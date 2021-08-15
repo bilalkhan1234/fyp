@@ -22,7 +22,7 @@ import sklearn.neighbors
 app.secret_key = 'development key'
 @app.route('/', methods = ['GET'])
 def hello():
-    return 'This is my first API call!'
+    return '<h1>This is my first API call!</h1>'
     # form = Registro()
 
     # if request.method == 'POST':
